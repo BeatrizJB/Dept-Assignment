@@ -212,6 +212,6 @@ export const worksInfo = [
 
 export const testemonial = {
   id: 1,
-  text: "Dept helped us tell our story through a bold new identity and a robust online experience. To the tune of 60% growth in online bookings in just one month.",
+  text: "“Dept helped us tell our story through a bold new identity and a robust online experience. To the tune of 60% growth in online bookings in just one month.”",
   author: "MATTIJS TEN BRINK - CEO, TRANSAVIA",
 };
