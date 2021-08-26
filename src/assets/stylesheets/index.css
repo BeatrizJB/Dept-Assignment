@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Teko-Bold";
+  src: url("../fonts/teko-bold/teko-bold.woff2") format("woff2"),
+  url("../fonts/teko-bold/teko-bold.woff") format("woff"),
+  url("../fonts/teko-bold/teko-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Teko-Light";
+  src: url("../fonts/teko-light/teko-light.woff2") format("woff2"),
+  url("../fonts/teko-light/teko-light.woff") format("woff"),
+  url("../fonts/teko-light/teko-light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Teko-Medium";
+  src: url("../fonts/teko-medium/teko-medium.woff2") format("woff2"),
+    url("../fonts/teko-medium/teko-medium.woff") format("woff"),
+    url("../fonts/teko-medium/teko-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Teko-Regular";
+  src: url("../fonts/teko-regular/teko-regular.woff2") format("woff2"),
+    url("../fonts/teko-regular/teko-regular.woff") format("woff"),
+    url("../fonts/teko-regular/teko-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Teko-SemiBold";
+  src: url("../fonts/teko-semibold/teko-semibold.woff2") format("woff2"),
+    url("../fonts/teko-semibold/teko-semibold.woff") format("woff"),
+    url("../fonts/teko-semibold/teko-semiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  visibility: visible;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }

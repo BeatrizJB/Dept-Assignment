@@ -192,7 +192,7 @@ export const worksInfo = [
     image: koninklijke,
     alt: "A pile of books with only the spines showing, in a red backgroud",
     company: "KONINKLIJKE BIBLIOTHEEK",
-    title: "the search for the most influential book ever",
+    title: "The search for the most influential book ever",
   },
   {
     id: 16,
