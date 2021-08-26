@@ -20,6 +20,7 @@ const Form = () => {
             <div className="form__fields">
               <input type="email" id="email" name="email" required/>
               <label>Email</label>
+              <p>This field is required</p>
             </div>
             <div className="form__fields">
               <textarea

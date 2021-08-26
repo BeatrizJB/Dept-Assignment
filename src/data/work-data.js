@@ -120,23 +120,23 @@ export const worksInfo = [
   },
   {
     id: 5,
-    image: florensis,
-    alt: "Man with his back turned, wearing a backpack, staring pensively at a wall covered in papers",
-    name: "Florensis",
-    title: "Rethinking the entire online ecosystem",
-  },
-  {
-    id: 6,
     image: "none",
     name: "MICROSOFT",
     title:
       "Tapping into Ireland's unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
   },
   {
-    id: 7,
+    id: 6,
     image: "none",
     name: "O'NEIL",
     title: "Integrating existing content into O'Neil's new e-commerce platform",
+  },
+  {
+    id: 7,
+    image: florensis,
+    alt: "Man with his back turned, wearing a backpack, staring pensively at a wall covered in papers",
+    name: "Florensis",
+    title: "Rethinking the entire online ecosystem",
   },
   {
     id: 8,

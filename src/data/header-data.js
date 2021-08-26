@@ -1,9 +1,10 @@
 import headerImage from "../assets/images/Header.png"
+import deptLogo from "../assets/icons/icon-dept.svg"
 
 export const headerData = {
   id: 1,
   title: "Work",
-  logo: "Dept",
+  logo: deptLogo,
   button: "View Case",
   header: headerImage,
   alt: "Man with his back turned, wearing a backpack, staring pensively at a wall covered in papers",
