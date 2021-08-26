@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../assets/icons/icon-dropdown.svg";
+import Arrow from "../../assets/icons/icon-dropdown.svg";
 
 const CardImage = ({ props }) => {
   return (
@@ -9,7 +9,7 @@ const CardImage = ({ props }) => {
       <span className="cards__card-title">{props.title}</span>
       <button>
         <img
-          src={arrow}
+          src={Arrow}
           alt="arrow icon"
           className="cards__button-arrow-icon"
         />

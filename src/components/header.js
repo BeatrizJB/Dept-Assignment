@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "./menu";
+//import Menu from "./menu";
 import MenuIcon from "../assets/icons/icon-menu.svg";
-import { head } from "lodash";
+
 
 const Header = ({ headerData }) => {
   return (
@@ -14,8 +14,8 @@ const Header = ({ headerData }) => {
       <div className="header__menu">
         <p>Menu</p>
         <a className="header__menu-icon" href="/">
-          {" "}
-          <img src={MenuIcon} alt="Menu Icon" />{" "}
+          
+          <img src={MenuIcon} alt="Menu Icon" />
         </a>
       </div>
       <section className="header__image-work">

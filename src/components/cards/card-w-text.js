@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../assets/icons/icon-dropdown.svg";
+import Arrow from "../../assets/icons/icon-dropdown.png";
 
 const CardText = ({ props }) => {
   return (
@@ -7,7 +7,7 @@ const CardText = ({ props }) => {
       <p className="cards__card-name">{props.name}</p>
       <span className="cards__card-title">{props.title}</span>
       <button>
-        <img src={arrow} alt="arrow icon" className="cards__button-arrow-icon" />
+        <img src={Arrow} alt="arrow icon" className="cards__button-arrow-icon" />
         VIEW CASE
       </button>
     </div>

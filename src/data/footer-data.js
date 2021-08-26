@@ -1,10 +1,11 @@
 import facebook from "../assets/icons/icon-fb.svg";
 import twitter from "../assets/icons/icon-twitter.svg";
 import insta from "../assets/icons/icon-instagram.svg";
+import deptLogo from "../assets/icons/icon-dept.svg"
 
 export const footerData = {
   id: 1,
-  title: "Dept",
+  title: deptLogo,
   chamberOfCommerce: "63464101",
   vat: "NL 8552.47.502.B01",
   terms: "Terms and conditions",
