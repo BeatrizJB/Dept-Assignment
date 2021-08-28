@@ -3,13 +3,12 @@
     background-color: #0e0e0e;
     visibility: visible;
     flex-direction: column;
-    width: 375px;
+    width: 100%;
 }
 
 .footer img {
     filter: invert(100%);
-    width: 22px;
-    height: 24px;
+    width: 40%;
 }
 
 .footer__logo {
@@ -24,8 +23,8 @@
 
 
 .footer__list {
-    padding-left: 20px;
-    padding-top: 60px;
+    padding-left: 6%;
+    padding-top: 15%;
 }
 
 .footer__menu {
@@ -35,21 +34,21 @@
 }
 
 .footer__media--item {
-    margin-right: 20px;
-    margin-bottom: 30px;
+    margin-right: 6%;
+    margin-bottom: 50%;
 }
 
 .footer__list--item {
      font-family: "Teko-Regular";
      text-transform: uppercase;
-     font-size: 32px;
+     font-size: 180%;
      font-weight: normal;
      font-stretch: normal;
      font-style: normal;
      line-height: 1;
-     letter-spacing: 1px;
-     border-bottom: 5px;
-     margin-bottom: 20px;
+     letter-spacing: 1%;
+     border-bottom: 10%;
+     margin-bottom: 27%;
 
 }
 
@@ -60,12 +59,12 @@
 
 .footer__agency {
     border-top: 0.1px solid #808080;
-    margin: 0 20px 20px 20px;
+    margin: 0 6% 6% 6%;
 }
 
 .footer__agency p {
     font-family: Arial;
-    font-size: 13px;
+    font-size: 75%;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -75,11 +74,11 @@
 }
 
 .footer__agency-info {
-    padding-top: 20px;
+    padding-top: 8%;
 }
 
 .footer__agency-copyright {
-    margin: 30px 0 30px 0;
+    margin: 10% 0 10% 0;
 
 }
 

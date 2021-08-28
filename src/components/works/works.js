@@ -2,6 +2,7 @@ import React from "react";
 import ImageCard from "../cards/card-w-img";
 import TextCard from "../cards/card-w-text";
 import TestemonialCard from "../cards/card-w-testemonial";
+import "./works.css"
 
 const Works = ({ worksInfo, testemonial }) => {
   return (
@@ -17,13 +18,11 @@ const Works = ({ worksInfo, testemonial }) => {
               <TextCard props={work} key={index} />
             ))}
           </div>
-          {worksInfo.slice(6, 7).map((work, index) => (
+          {worksInfo.slice(6, 9).map((work, index) => (
             <ImageCard props={work} key={index} />
           ))}
         </div>
-        {worksInfo.slice(7, 9).map((work, index) => (
-          <TextCard props={work} key={index} />
-        ))}
+        
         <div className="works__cards--row-reverse">
           <div className="works__cards--column">
             {worksInfo.slice(9, 11).map((work, index) => (

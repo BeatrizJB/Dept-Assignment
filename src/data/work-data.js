@@ -28,67 +28,6 @@ export const industriesFilter = [
   },
 ];
 
-/*  {
-    id: 2,
-    name: "digital teams",
-    value: "digital-teams",
-  },
-  {
-    id: 3,
-    name: "strategy",
-    value: "strategy",
-  },
-  {
-    id: 4,
-    name: "Diensten",
-    value: "/",
-  },
-  {
-    id: 5,
-    name: "Partners",
-    value: "/",
-  },
-  {
-    id: 6,
-    name: "Stories",
-    value: "/",
-  },
-  {
-    id: 7,
-    name: "Vacatures",
-    value: "/",
-  },
-  {
-    id: 8,
-    name: "Events",
-    value: "/",
-  },
-  {
-    id: 9,
-    name: "Contacts",
-    value: "/",
-  },
-  {
-    id: 10,
-    name: "Home",
-    value: "/",
-  },
-  {
-    id: 11,
-    name: "Werk",
-    value: "/",
-  },
-  {
-    id: 12,
-    name: "Over",
-    value: "/",
-  },
-  {
-    id: 13,
-    name: "Diensten",
-    value: "/",
-  }, */
-
 export const worksInfo = [
   {
     id: 1,
@@ -102,7 +41,7 @@ export const worksInfo = [
     image: kempen,
     alt: "Three people sitting and discussing the papers they hold",
     name: "KEMPEN",
-    title: "A 100 years of Mondrian and Dje Stijl",
+    title: "Not some average banking website",
   },
   {
     id: 3,
@@ -116,7 +55,7 @@ export const worksInfo = [
     image: museum,
     alt: "A woman staring at a Mondrian paiting with her back turned",
     name: "GEMEENTEMUSEUM",
-    title: "A 100 years of Mondrian and Dje Stijl",
+    title: "A 100 years of Mondrian and De Stijl",
   },
   {
     id: 5,
@@ -142,27 +81,27 @@ export const worksInfo = [
     id: 8,
     image: lightning,
     alt: "A city lamppost with building in the background",
-    company: "BE LIGHTNING",
+    name: "BE LIGHTNING",
     title: "Delivering clarity on a global scale",
   },
   {
     id: 9,
     image: tui,
     alt: "An ilustration of a confused tourist holding a map",
-    company: "TUI",
+    name: "TUI",
     title: "Swipe to find your next holiday destination",
   },
   {
     id: 10,
     image: "none",
-    company: "BUTLINS",
+    name: "BUTLINS",
     title:
       "Enhancing customer experience for personalised holiday planning using real time data",
   },
   {
     id: 11,
     image: "none",
-    company: "VACANSESELECT",
+    name: "VACANSESELECT",
     title:
       "Predicting booking behaviour for holidays with smart data, voice search and machine learning",
   },
@@ -170,42 +109,42 @@ export const worksInfo = [
     id: 12,
     image: chocomel,
     alt: "Various packages of the chocomel drink",
-    company: "CHOCOMEL",
+    name: "CHOCOMEL",
     title: "A campaign for the limited edition letter packs",
   },
   {
     id: 13,
     image: jbl,
     alt: "A man with JBL headphones on",
-    company: "JBL",
+    name: "JBL",
     title: "Live like a champion with Jerome Booteng",
   },
   {
     id: 14,
     image: zalando,
     alt: "Two men working in front of a whiteboard",
-    company: "ZALANDO",
+    name: "ZALANDO",
     title: "Innovative SEO and content strategy for Zalando",
   },
   {
     id: 15,
     image: koninklijke,
     alt: "A pile of books with only the spines showing, in a red backgroud",
-    company: "KONINKLIJKE BIBLIOTHEEK",
+    name: "KONINKLIJKE BIBLIOTHEEK",
     title: "The search for the most influential book ever",
   },
   {
     id: 16,
     image: liberty,
     alt: "A side shot of many computer servers",
-    company: "LIBERTY GLOBAL",
+    name: "LIBERTY GLOBAL",
     title: "Delivering complex commerce solutions",
   },
   {
     id: 17,
     image: arla,
     alt: "An assortment of protein drinks and yogurts",
-    company: "ARLA",
+    name: "ARLA",
     title: "Swipe to find your next holiday destination",
   },
 ];

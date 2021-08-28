@@ -3,9 +3,8 @@
     visibility: visible;
     flex-direction: column;
     align-items: center;
-    padding: 1.2rem;
     background-color: #f3f6f6;
-    width: 375px;
+    width: 100%;
 }
 
 .clients__logos--desktop {
@@ -17,8 +16,8 @@
     font-family: 'Teko-Light', sans-serif;
     text-transform: uppercase;
     color: #272727;
-    font-size: 30px;
-    margin: 1.5rem;
+    font-size: 190%;
+    margin: 7%;
     width: 60%;
     text-align: center;
 }
@@ -26,28 +25,30 @@
 .clients__text {
     font-family: Arial, sans-serif;
     color: #272727;
-    font-size: 17px;
+    font-size: 90%;
     text-align: center;
     line-height: 1.8rem;
-    margin-bottom: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-bottom: 11%;
+    padding-left: 4%;
+    padding-right: 4%;
     overflow: hidden;    
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
     text-align: center;
-    margin-top: 0.001rem;
+    margin-top: -2%;
+    text-align: center;
 }
 
 .clients__logos--phone {
     display: grid;
     grid-template-columns: 45% 45%;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-items: center;
     visibility: visible;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 12%;
     
 }
 
@@ -55,81 +56,23 @@
     display: flex;
     visibility: visible;
     justify-content: center;
-    width: 8rem;
-    height: auto;
-    padding: 2rem;
-}
-
-.clients__logo img {
-    cursor: pointer;
-    transform: none;
-    transition: transform 0.2s ease-in-out;
-}
-
-.clients__logo img:hover {
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
-}
-
-/* .clients {
-    display: flex;
-    visibility: visible;
-    flex-direction: column;
     align-items: center;
-    padding: 1.2rem;
-    background-color: #f3f6f6;
-    width: 375px;
-}
-
-
-
-.clients__text {
-    font-family: Arial, sans-serif;
-    color: #272727;
-    font-size: 1.15rem;
-    text-align: center;
-    line-height: 1.8rem;
-    margin-bottom: 2rem;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
-    overflow: hidden;
-}
-
-.clients__logos--phone {
-    display: flex;
-    visibility: visible;
-    flex-wrap: wrap;
-    margin-bottom: 1.2rem;
-}
-
-.clients__logos--desktop {
-    display: none;
-    visibility: hidden;
-}
-
-.clients__logo {
-    display: flex;
-    visibility: visible;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
-    padding: 2rem;
+    width: 55%;
+    height: auto;
+    padding: 20% 5% 20% 5%;
 }
 
 .clients__logo img {
     cursor: pointer;
     transform: none;
     transition: transform 0.2s ease-in-out;
-    
 }
 
 .clients__logo img:hover {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-} */
+}
 
 /* 
   ##Device = Tablets, Ipads (portrait)

@@ -2,8 +2,12 @@
     display: flex;
     visibility: visible;
     flex-direction: column;
-    padding: 2.2rem 2rem 4rem 2rem;
-    width: 375px;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.form__section {
+    width: 95%;
 }
 
 .form__section--text {
@@ -11,39 +15,43 @@
     visibility: visible;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: 'Teko-Light', sans-serif;
-    text-transform: uppercase;
-    color: var(--dark-color);
-    font-size: 2.2rem;
-    letter-spacing: 0.07rem;
+    font-family: 'Teko-Regular', sans-serif;
+    color: #272727;
+    font-size: 180%;
+    letter-spacing: 1%;
+    width: 93%;
+    margin-right: 0;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 .form__section--text p {
-    margin-right: 0.4rem;
+    margin-right: 1%;
 }
 
 .form__fields {
     position: relative;
-    margin: 1rem 0 1rem 0;
-    padding-top: 2rem;
+    margin: 4% 0 4% 0;
+    padding-top: 10%;
 }
 
 .form__fields>input,
 .form__fields>textarea {
     font-family: Arial, sans-serif;
     color: black;
-    font-size: 1rem;
-    letter-spacing: 0.05rem;
+    font-size: 90%;
+    letter-spacing: 1%;
     border: none;
     border-bottom: 1px solid #dddddd;
     border-radius: 0;
-    width: 100%;
-    margin: 0 0 8px 0;
+    width: 80%;
+    margin: 0 0 3% 0;
     padding: 0;
     box-sizing: content-box;
     box-shadow: none;
     transition: box-shadow 0.5s ease-in-out;
     line-height: 1.3;
+    
 }
 
 .form__fields>textarea {
@@ -56,14 +64,14 @@
 
 .form__fields input:focus,
 .form__fields textarea:focus {
-    box-shadow: 0 0 0.3rem 0.1rem var(--blue-color);
+    box-shadow: 0 0 2% 1% #1a18f7;
 }
 
 .form__fields>label {
     font-family: Arial, sans-serif;
     text-transform: uppercase;
     color: black;
-    font-size: 1rem;
+    font-size: 90%;
     position: absolute;
     left: 0;
     top: 0;
@@ -71,16 +79,17 @@
     cursor: text;
     text-align: initial;
     box-sizing: inherit;
+    font-weight: bold;
 }
 
 .form__submit>input[type='submit'] {
     font-family: Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 0.93rem;
-    letter-spacing: 0.04rem;
+    font-size: 80%;
+    letter-spacing: 1%;
     color: #ffffff;
     background-color: #1a18f7;
-    padding: 0.9rem 3.5rem 0.9rem 3.5rem;
+    padding: 2% 6% 2% 6%;
     border: none;
     border-radius: 0;
     cursor: pointer;
@@ -88,10 +97,11 @@
     transition: box-shadow 0.5s ease-in-out;
     min-width: 143px;
     min-height: 51px;
+    margin-bottom: 20%;
 }
 
 .form__submit>input[type='submit']:hover {
-    box-shadow: 0 0 0.3rem 0.1rem var(--blue-color);
+    box-shadow: 0 0 0.3rem 0.1rem #1a18f7;
 }
 
 .form__required {
@@ -108,7 +118,7 @@
   ##and
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
-*/
+
 @media (min-width: 768px) {
     .form > form {
         flex-direction: row;
@@ -153,10 +163,12 @@
     }
 }
 
+*/
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
-*/
+
 @media (min-width: 1281px) {
     .form__section--text {
         font-size: 2.5rem;
@@ -165,4 +177,4 @@
     .form__required {
         font-size: 0.8rem;
     }
-}
+}*/
