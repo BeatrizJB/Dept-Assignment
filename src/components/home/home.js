@@ -1,9 +1,9 @@
 import React from "react"
-import Clients from "./clients"
-import Works from "./works"
-import Form from "./form"
-import { testemonial, worksInfo } from "../data/work-data"
-import { clientsIntro, clientsLogo} from "../data/clients-data"
+import Clients from "../clients/clients"
+import Works from "../works/works"
+import Form from "../form/form"
+import { testemonial, worksInfo } from "../../data/work-data"
+import { clientsIntro, clientsLogo} from "../../data/clients-data"
 
 const Home = () => {
     return(

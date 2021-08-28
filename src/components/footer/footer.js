@@ -1,5 +1,6 @@
 import React from "react";
-import ArrowTop from "../assets/icons/icon-scroll-to-top.svg";
+import ArrowTop from "../../assets/icons/icon-scroll-to-top.svg";
+import "./footer.css"
 
 const Footer = ({ footerData }) => {
   const scrollToTop = () => {
@@ -9,20 +10,20 @@ const Footer = ({ footerData }) => {
   return (
     <footer className="footer">
       <section className="footer__directory">
-        <nav className="foot__menu">
+        <nav className="footer__menu">
           <a className="footer__logo" href="/">
             <img src={footerData.title} alt="Dept Logo" />
           </a>
           <ul className="footer__list">
             {footerData.menu.map((item) => (
-              <li className="footer_list--item" key={item.id}>
+              <li className="footer__list--item" key={item.id}>
                 <a href={item.url}>{item.name}</a>
               </li>
             ))}
           </ul>
           <ul className="footer__list">
             {footerData.socialMedia.map((item) => (
-              <li className="footer_list--item" key={item.id}>
+              <li className="footer__media--item" key={item.id}>
                 <a href={item.url}>
                   <img src={item.icon} alt={item.alt} />
                 </a>
@@ -30,8 +31,8 @@ const Footer = ({ footerData }) => {
             ))}
           </ul>
         </nav>
-        <div className="footer__agency-info">
-          <div className="footer__agency-info--text">
+        <div className="footer__agency">
+          <div className="footer__agency-info">
             <p>Chamber of Commercer: {footerData.chamberOfCommerce}</p>
             <p>VAT: {footerData.vat}</p>
             <p>{footerData.terms}</p>
@@ -41,8 +42,8 @@ const Footer = ({ footerData }) => {
           </div>
         </div>
       </section>
-      <section className="footer_button">
-        <button className="footer_button--top" onClick={() => scrollToTop()}>
+      <section className="footer__button">
+        <button className="footer__button--top" onClick={() => scrollToTop()}>
           <img src={ArrowTop} alt="Arrow up icon" />
           TOP
         </button>

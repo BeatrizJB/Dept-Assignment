@@ -1,9 +1,10 @@
 import React from "react";
+import "./cards.css"
 
 const CardTestemonial = ({ props }) => {
   return (
     <div className="cards__cards-w-testemonial">
-      <span className="cards__card-text">{props.text}</span>
+      <span className="cards__card-test--text">{props.text}</span>
       <p className="cards__card-author">{props.author}</p>
     </div>
   );

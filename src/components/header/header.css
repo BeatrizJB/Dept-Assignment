@@ -1,0 +1,277 @@
+.header {
+    display: block;
+    visibility: visible;
+    width: 375px;
+    flex-direction: column;
+}
+
+.header__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: inherit;
+    background-color: white;
+    z-index: 1;
+    height: 3.3rem;
+}
+
+.header__image--desktop {
+    display: none;
+    visibility: hidden;
+}
+
+.header__logo img {
+    width: 40%;
+    margin-left: 1.5rem;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;    
+}
+
+.header__menu-icon {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.header__menu p {
+    width: 1rem;
+    height: 2rem;
+    font-family: "Teko-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: #0e0e0e;
+    margin-right: 9%;
+}
+
+.header__image-work {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__image--phone {
+    display: block;
+    object-fit: cover;  
+    position: static;
+    width: 100%;
+    height: 19rem;
+}
+
+.header__title {
+    width: 5rem;
+    height: 3rem;
+    margin: 15% 10% 15% 6%;
+    font-family: "Teko-Regular";
+    text-transform: uppercase;
+    font-size: 170px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    position: absolute;
+    color: #0e0e0e;
+}
+
+.header__button-box {
+    position: relative;
+    visibility: visible;
+    display: flex;
+    width: 100%;
+}
+
+.header__button--black {
+    margin: 7% 6% 7% 6%;
+    height: 3rem;
+    width: 40rem;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+}
+
+.header__button--black:hover {
+    background-color: #939393;
+}
+
+/* .header {
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    width: 375px;
+}
+
+.header__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: inherit;
+    background-color: white;
+    z-index: 1;
+}
+
+.header__logo img {
+    width: 100px;
+}
+
+.header__menu p {
+    width: 30px;
+    height: 32px;
+    font-family: "Teko-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color:black;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    visibility: visible;
+    flex-direction: row;    
+    justify-content: space-between; 
+}
+
+.header__menu-icon {
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.header__image-work {
+    position: relative;
+    width: 100%;
+}
+
+.header__image--phone {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.header__image--desktop {
+    display: none;
+    visibility: hidden;
+    width: 100%;
+}
+
+.header__title {
+    width: 798px;
+    height: 400px;
+    margin: 80px 232px 249px 0;
+    font-family: "Teko-Regular";
+    font-size: 400px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    position: absolute;
+}
+
+.header__button-box {
+    display:flex;
+    visibility: visible;
+    justify-content: center;
+    width: 100%;
+}
+
+.header__button--black {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    border:none;
+}
+
+.header__button--black:hover {
+    background-color: #939393;
+}
+
+/*media queries avg in https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ for phones and tablets, either portrait/landscape   
+
+@media (min-width: 360px) and (max-width:800px) {
+    .header__title {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width: 801px) {
+    .header {
+        align-items: center;
+    }
+
+    .header__navigation {
+        width: 85%;
+        background-color: transparent;
+        border-bottom: 1px solid black;
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+
+    .header__image--phone {
+        display: none;
+        visibility: hidden;
+    }
+
+    .header__image--desktop {
+        display: block;
+        visibility: visible;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__title {
+        font-size: 15rem;
+        top: 4rem;
+        left: 8%;
+        letter-spacing: 0.1rem;
+    }
+
+    .header__button-box {
+        width: 100%;
+        position: absolute;
+        bottom: 2rem;
+        right: 8%;
+        margin-top: 0;
+        justify-content: flex-end;
+    }
+
+    .header__button--black {
+        width: 20%;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0;
+    }
+} */

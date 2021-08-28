@@ -1,0 +1,194 @@
+.clients {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: #f3f6f6;
+    width: 375px;
+}
+
+.clients__logos--desktop {
+    display: none;
+    visibility: hidden;
+}
+
+.clients__title {
+    font-family: 'Teko-Light', sans-serif;
+    text-transform: uppercase;
+    color: #272727;
+    font-size: 30px;
+    margin: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.clients__text {
+    font-family: Arial, sans-serif;
+    color: #272727;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;    
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 0.001rem;
+}
+
+.clients__logos--phone {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    visibility: visible;
+    width: 100%;
+    margin-bottom: 3rem;
+    
+}
+
+.clients__logo {
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+    width: 8rem;
+    height: auto;
+    padding: 2rem;
+}
+
+.clients__logo img {
+    cursor: pointer;
+    transform: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.clients__logo img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+/* .clients {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: #f3f6f6;
+    width: 375px;
+}
+
+
+
+.clients__text {
+    font-family: Arial, sans-serif;
+    color: #272727;
+    font-size: 1.15rem;
+    text-align: center;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.clients__logos--phone {
+    display: flex;
+    visibility: visible;
+    flex-wrap: wrap;
+    margin-bottom: 1.2rem;
+}
+
+.clients__logos--desktop {
+    display: none;
+    visibility: hidden;
+}
+
+.clients__logo {
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.clients__logo img {
+    cursor: pointer;
+    transform: none;
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.clients__logo img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+} */
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+  ##and
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+  ##and
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+
+@media (min-width: 768px) {
+    .clients {
+        padding: 1.2rem 7.5% 3rem 7.5%;
+    }
+
+    .clients__title {
+        margin: 1.2rem 0 0.5rem 0;
+    }
+
+    .clients__text {
+        font-size: 1rem;
+        width: 60%;
+    }
+
+    .clients__logos--phone {
+        display: none;
+        visibility: hidden;
+    }
+
+    .clients__logos--desktop {
+        display: flex;
+        visibility: visible;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.2rem;
+        padding: 1rem 5rem 0 5rem;
+    }
+
+    .clients__logo {
+        width: 25%;
+        padding: 1.3rem;
+    }
+}*/
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+  ##and
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+
+@media (min-width: 1025px) {
+    .clients__text {
+        font-size: 1.1rem;
+    }
+
+    .clients__logo {
+        padding: 2rem;
+    }
+}*/

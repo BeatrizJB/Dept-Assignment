@@ -1,7 +1,7 @@
 import React from "react";
-import ImageCard from "./cards/card-w-img";
-import TextCard from "./cards/card-w-text";
-import TestemonialCard from "./cards/card-w-testemonial";
+import ImageCard from "../cards/card-w-img";
+import TextCard from "../cards/card-w-text";
+import TestemonialCard from "../cards/card-w-testemonial";
 
 const Works = ({ worksInfo, testemonial }) => {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import "./form.css"
 
 const Form = () => {
   return (
@@ -18,21 +19,17 @@ const Form = () => {
               <label>Name</label>
             </div>
             <div className="form__fields">
-              <input type="email" id="email" name="email" required/>
+              <input type="email" id="email" name="email" required />
               <label>Email</label>
-              <p>This field is required</p>
+              <p className="form__required">This field is required</p>
             </div>
             <div className="form__fields">
-              <textarea
-              id="message"
-              name="message"
-              rows="4"
-              maxLength="40" />
+              <textarea id="message" name="message" rows="4" maxLength="40" />
               <label>message</label>
             </div>
           </div>
-          <div>
-              <input type="submit" id="submit" value="Sen" />
+          <div className="form__submit">
+            <input type="submit" id="submit" value="Sen" />
           </div>
         </div>
       </form>

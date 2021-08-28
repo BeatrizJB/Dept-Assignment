@@ -1,7 +1,10 @@
 import React from "react";
-import Arrow from "../assets/icons/icon-dropdown.svg";
+import Arrow from "../../assets/icons/icon-dropdown.svg";
+import useLockBodyScroll from "./hook";
 
 const Menu = ({ headerData }) => {
+  useLockBodyScroll();
+
   return (
     <section className="menu">
       <div className="menu__container">
@@ -57,4 +60,4 @@ const Menu = ({ headerData }) => {
   );
 };
 
-export default Menu;
+export default Menu

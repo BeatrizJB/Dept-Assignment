@@ -1,8 +1,7 @@
 import React from "react";
-import "./assets/stylesheets/App.css";
-import Home from "./components/home";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Home from "./components/home/home";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 import { headerData } from "./data/header-data";
 import { footerData } from "./data/footer-data";
 

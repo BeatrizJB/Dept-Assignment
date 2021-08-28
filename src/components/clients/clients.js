@@ -1,4 +1,5 @@
 import React from "react";
+import "./clients.css"
 
 const Clients = ({ clientsIntro, clientsLogo }) => {
   return (
