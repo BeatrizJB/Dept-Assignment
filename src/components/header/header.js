@@ -6,14 +6,6 @@ import MenuIcon from "../../assets/icons/icon-menu.svg";
 const Header = ({ headerData }) => {
   const [openMenu, setOpenMenu] = useState(false);
 
-  // const toggleMenuOpen = () => {
-  //   setOpenMenu(true)
-  // }
-
-  // const toggleMenuClose = () => {
-  //   setOpenMenu(false);
-  // };
-
   return (
     <header className="header">
       <section className="header__navigation">
@@ -23,9 +15,9 @@ const Header = ({ headerData }) => {
 
         <div className="header__menu">
           <p>MENU</p>
-          <span className="header__menu-icon" /*onClick={setOpenMenu(true)}*/>
+          <div className="header__menu-icon" onClick={() => setOpenMenu(true)}>
             <img src={MenuIcon} alt="Menu Icon" />
-          </span>
+          </div>
         </div>
       </section>
       <section className="header__image-work">
@@ -44,9 +36,9 @@ const Header = ({ headerData }) => {
           <button className="header__button--black">{headerData.button}</button>
         </div>
       </section>
-      {/* {openMenu && (
+      {openMenu && (
         <Menu headerData={headerData} onClose={() => setOpenMenu(false)} />
-      )} */}
+      )}
     </header>
   );
 };

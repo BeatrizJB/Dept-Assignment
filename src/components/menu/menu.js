@@ -1,9 +1,12 @@
 import React from "react";
 import Arrow from "../../assets/icons/icon-dropdown.svg";
+import closeX from "../../assets/icons/close.png"
 import useLockBodyScroll from "./hook";
+import "./menu.css"
 
-const Menu = ({ headerData }) => {
+const Menu = ({ headerData, onClose }) => {
   useLockBodyScroll();
+
 
   return (
     <section className="menu">
@@ -11,18 +14,16 @@ const Menu = ({ headerData }) => {
         <a className="menu__logo" href="/">
           <img src={headerData.logo} alt="Dept Logo" />
         </a>
-
-        <div className="menu__menu-close">
-          <div className="menu__button-x">
-            <div className="menu__butt--line1"></div>
-            <div className="menu__butt--line2"></div>
+        
+          <div className="menu__menu-close" onClick={onClose}>
+            <img src={closeX} alt="Close icon" className="x" />
           </div>
-        </div>
       </div>
+      
       <nav className="menu__categories">
         <ul className="menu__cat--list">
           {headerData.menu.map((item) => (
-            <li  key={item.id}>
+            <li key={item.id}>
               <a href={item.url}>
                 <img src={Arrow} alt="Arrow Icon" className="menu__arrow" />
                 {item.name}
@@ -44,8 +45,8 @@ const Menu = ({ headerData }) => {
           ))}
         </ul>
       </div>
-      <div className="menu__socialMedia">
-        <ul className="menu__sm--items">
+      <div className="menu__media">
+        <ul className="menu__media--list">
           {headerData.socialMedia.map((item) => (
             <li key={item.id}>
               <a href={item.url}>
