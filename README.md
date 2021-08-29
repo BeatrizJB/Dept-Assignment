@@ -16,4 +16,4 @@ I did the Visual Developer test.
 
 ## Setup
 
-- Must have NodeJS >= 10.16 (https://nodejs.org/en/)
+- Must have NodeJS >= 10.16 (https://nodejs.org/en/) and npm 

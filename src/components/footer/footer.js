@@ -4,8 +4,10 @@ import "./footer.css"
 
 const Footer = ({ footerData }) => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+    window.scroll(0, 0)
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
 
   return (
     <footer className="footer" id="footer">
