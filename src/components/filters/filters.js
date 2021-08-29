@@ -6,10 +6,7 @@ const Filters = () => {
   return (
     <div className="filters">
       <div className="filters__work">
-        <label
-          className="filters__work--label"
-          id="workLabel"
-        >
+        <label className="filters__work--label" id="workLabel">
           Show me
         </label>
         <select
@@ -25,10 +22,7 @@ const Filters = () => {
         </select>
       </div>
       <div className="filters__industries">
-        <label
-          className="filters__industries--label"
-          id="industriesLabel"
-        >
+        <label className="filters__industries--label" id="industriesLabel">
           in
         </label>
         <select

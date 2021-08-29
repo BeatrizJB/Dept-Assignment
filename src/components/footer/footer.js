@@ -8,20 +8,20 @@ const Footer = ({ footerData }) => {
   };
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <section className="footer__directory">
         <nav className="footer__menu">
           <a className="footer__logo" href="/">
             <img src={footerData.title} alt="Dept Logo" />
           </a>
-          <ul className="footer__list">
+          <ul className="footer__list1">
             {footerData.menu.map((item) => (
               <li className="footer__list--item" key={item.id}>
                 <a href={item.url}>{item.name}</a>
               </li>
             ))}
           </ul>
-          <ul className="footer__list">
+          <ul className="footer__list2">
             {footerData.socialMedia.map((item) => (
               <li className="footer__media--item" key={item.id}>
                 <a href={item.url}>

@@ -84,12 +84,15 @@
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 768px) {
+    
     .filters {
+        position: relative;
         flex-direction: row;
         justify-content: flex-end;
         width: 90%;
         margin: 10% 2% 6% 2% ;
-        padding: 0;        
+        padding: 0; 
+        bottom: 1rem;       
     }
 
     .filters__work,
@@ -122,4 +125,26 @@
         width: 1rem;
     }
 }
+
+@media (min-width: 870px) {
+    .filters {
+        margin-top: 25%
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .filters {
+        margin-top: 25%
+    }
+}
+
+
+
+@media (min-width: 1525px) {
+    .filters {
+        margin-top: 35%
+    }
+}
+
 
