@@ -31,7 +31,9 @@ const Header = ({ headerData }) => {
           src={headerData.header}
           alt={headerData.alt}
         />
-        <h1 className="header__title">{headerData.title}</h1>
+        <div className="header__position--title">
+          <h1 className="header__title">{headerData.title}</h1>
+        </div>
         <div className="header__button-box">
           <button className="header__button--black">{headerData.button}</button>
         </div>

@@ -38,7 +38,6 @@
     letter-spacing: normal;
     text-align: center;
     margin-top: -2%;
-    text-align: center;
 }
 
 .clients__logos--phone {
@@ -74,29 +73,8 @@
     transform: scale(0.8);
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-  ##and
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-  ##and
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
 
 @media (min-width: 768px) {
-    .clients {
-        padding: 1.2rem 7.5% 3rem 7.5%;
-    }
-
-    .clients__title {
-        margin: 1.2rem 0 0.5rem 0;
-    }
-
-    .clients__text {
-        font-size: 1rem;
-        width: 60%;
-    }
 
     .clients__logos--phone {
         display: none;
@@ -104,34 +82,46 @@
     }
 
     .clients__logos--desktop {
-        display: flex;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-evenly;
+        justify-items: center;
         visibility: visible;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1.2rem;
-        padding: 1rem 5rem 0 5rem;
+        width: 80%;
+        margin-bottom: 12%;
+
     }
 
     .clients__logo {
-        width: 25%;
+        width: 70%;
         padding: 1.3rem;
     }
-}*/
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-  ##and
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+    .clients__text {
+        font-size: 150%;
+         padding-left: 10%;
+         padding-right: 10%;
+         line-height: 1.9rem;
+         text-align: center;
+    }
+
+    .clients__title {
+        font-size: 300%;
+    }
+}
 
 @media (min-width: 1025px) {
     .clients__text {
-        font-size: 1.1rem;
+        font-size: 150%;
+        padding-left: 15%;
+        padding-right: 15%;
+        line-height: 3rem;
+        text-align: center;
     }
 
-    .clients__logo {
-        padding: 2rem;
+    .clients__title {
+        font-size: 350%;
     }
-}*/
+
+    
+}

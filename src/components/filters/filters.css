@@ -1,0 +1,125 @@
+.filters {
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    padding: 1% 4% 1% 6%;
+}
+
+.filters__work,
+.filters__industries {
+    display: flex;
+    visibility: visible;
+    margin-top: 1%;
+}
+
+.filters__work--label,
+.filters__industries--label {
+    font-family: 'Teko-Light', sans-serif;
+    color: #a3a3a3;
+    font-size: 150%;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.filters__work--select,
+.filters__industries--select {
+    display: block;
+    visibility: visible;
+    font-family: 'Teko-Medium', sans-serif;
+    color: #0e0e0e;
+    font-size: 150%;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    margin: 0 0 0 2%;
+    border: none;
+    border-bottom: 1px solid black;
+    appearance: none;
+    line-height: normal;
+    height: 25px;
+    border-radius: 0;
+    background-color: #ffffff;
+    background-image: url('../../assets/icons/icon-dropdown.svg');
+    background-repeat: no-repeat, repeat;
+    background-position: right 0 top 50%, 0 0;
+    background-size: 10px auto, 100%;
+}
+
+.filters__work--select {
+    width: 22%;
+    min-width: 80px;
+}
+
+.filters__industries--select {
+    width: 32%;
+    min-width: 120px;
+}
+
+.filters select::-ms-expand {
+    display: none;
+    visibility: hidden;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .filters__select-works {
+        width: 20%;
+    }
+
+    .filters__select-industries {
+        width: 28%;
+    }
+}*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+  ##and
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+  ##and
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 768px) {
+    .filters {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 90%;
+        margin: 10% 2% 6% 2% ;
+        padding: 0;        
+    }
+
+    .filters__work,
+    .filters__industries {
+        justify-content: flex-end;
+    }
+
+    .filters__works {
+        max-width: 12rem;
+    }
+
+    .filters__industries {
+        max-width: 9.5rem;
+        margin-left: 1rem;
+    }
+
+    .filters__work--select {
+        width: 5.2rem;
+    }
+
+    .filters__industries--select {
+        width: 7.7rem;
+    }
+
+    .filters__work--label {
+        width: 4.2rem;
+    }
+
+    .filters__industries--label {
+        width: 1rem;
+    }
+}
+

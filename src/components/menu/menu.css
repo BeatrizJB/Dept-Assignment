@@ -88,14 +88,14 @@
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(63deg) brightness(104%) contrast(103%);
     display: none;
     visibility: hidden;
-    margin-right: 4%;
-    margin-top: 1.6%;
-    width: 2.5%;
+    margin-left: 49%;
+    margin-bottom: -5%;
+    width: 5%;
     transform: rotate(270deg);
 }
 
-.menu__cat--list a>.menu__arrow {
-    height: 20%;
+.menu__cat--list a >.menu__arrow {
+    height: 5%;    
 }
 
 a:hover .menu__arrow {
@@ -113,11 +113,9 @@ a:hover .menu__arrow {
   ##and
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
-  ##and
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
 */
-@media (min-width: 769px) {
+
+@media (min-width: 768px) {
     .menu {
         align-items: center;
     

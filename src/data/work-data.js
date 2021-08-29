@@ -18,6 +18,11 @@ export const worksFilter = [
     name: "all work",
     value: "all-work",
   },
+  {
+    id: 2,
+    name: "wip",
+    value: "wip",
+  },
 ];
 
 export const industriesFilter = [
@@ -25,6 +30,11 @@ export const industriesFilter = [
     id: 1,
     name: "all industries",
     value: "all-industries",
+  },
+  {
+    id: 2,
+    name: "wip",
+    value: "wip",
   },
 ];
 
